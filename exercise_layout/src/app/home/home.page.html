@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col 
+       size="12"
+       size-xs="6"
+       size-md="4"
+       size-lg="3" 
+         *ngFor="let item of [].constructor(9)">
+        <ion-card >
+          <ion-header>
+            <ion-title>
+              My pub of Canovas
+            </ion-title>
+          </ion-header>
+              <ion-card-content>
+                <img src="https://t1.salir.ltmcdn.com/es/places/0/3/4/img_130430_ni-se-sabe_0_orig.jpg" width="300px">
+              </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
